@@ -6,6 +6,9 @@
 // clase principal que contiene el método main para ejecutar el programa
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        // declaración de la variable de tipo String para almacenar el mensaje
+        String mensaje = "Hola Mundo";
+        // impresión del mensaje en la consola
+        System.out.println(mensaje);
     }
 }
